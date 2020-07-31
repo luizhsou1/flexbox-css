@@ -1,0 +1,10 @@
+/* SEMPRE PARA TRABALHAR COM CSS O ELEMENTO FLEX É O PAI, POR ISSOESTOU MEXENDO NO CONTAINER*/
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center; /*  Alinha os elementos filhos no centro do elemento flex */
+    justify-content: space-between; /* Da um espaço entre os elementos, joga cada um para um canto */
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+}
