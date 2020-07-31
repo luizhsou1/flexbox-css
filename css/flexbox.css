@@ -8,3 +8,31 @@
 .cabecalhoPrincipal-nav {
     display: flex;
 }
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    /* flex-direction: column; */ /* Por padrão é row */
+    /* flex-wrap: wrap; */ /* quando acabar o espaço joga para o lado */
+    flex-flow: column wrap; /* Faz o mesmo que as duas linhas de cima, só que resumido */
+    height: 250px;
+}
